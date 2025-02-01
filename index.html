@@ -10,7 +10,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <style>
+    #btn{
+      
+      animation: mymove 3s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes mymove {
+  from {background-color: rgb(115, 115, 163);}
+  to {margin-left: 10px;}
+}
+  </style>
 </head>
 <body class="">
   <section >
@@ -42,9 +52,22 @@
         </nav>
 
         <!-- banner section -->
-        <section >
+        <section class="mt-[100px]">
 
-  
+          <div class="lg:px-28 ">
+            <!-- nav text -->
+             <div class="lg:w-[600px] w-[300px] absolute z-40 lg:left-28 space-y-1 ">
+
+              <h1 id="h1" class="  lg:text-3xl text-xl font-bold">Pamper Your Pet, Because They Deserve the Bes</h1>
+              
+              <p class="lg:text-xl text-sm font-semibold">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            
+              <a id="btn" class="btn bg-[#FFDC26]  ">pian a pat</a>
+             </div>
+             <figure >
+              <img src="c1-assets/cat-big.png" alt="" class="relative">
+             </figure>
+          </div>
 
 
         </section>
